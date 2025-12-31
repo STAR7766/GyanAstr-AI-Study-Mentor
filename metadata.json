@@ -1,0 +1,7 @@
+{
+  "name": "GyanAstr - AI Study Mentor",
+  "description": "An AI-powered academic mentor for engineering students that transforms lecture notes into structured summaries, mind maps, flashcards, and Socratic viva sessions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
