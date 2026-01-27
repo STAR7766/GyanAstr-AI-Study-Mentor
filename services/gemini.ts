@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type, Schema, Tool, Modality } from "@google/genai";
 import { AnalysisResult, TestQuestion } from "../types";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = process.env.VITE_API_KEY || '';
 
 // Create a singleton instance
 export const ai = new GoogleGenAI({ apiKey });
